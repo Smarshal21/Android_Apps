@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/conferenceName"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="100dp"
+        android:hint="Enter Room Name" />
+
+    <Button
+        android:layout_width="185dp"
+        android:layout_height="69dp"
+        android:layout_below="@id/conferenceName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onButtonClick"
+        android:text="Join"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>
