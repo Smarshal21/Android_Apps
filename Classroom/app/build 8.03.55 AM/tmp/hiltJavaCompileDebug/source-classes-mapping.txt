@@ -1,0 +1,4 @@
+com/sammycode/notesample/NoteApplication_ComponentTreeDeps.java
+ com.sammycode.notesample.NoteApplication_ComponentTreeDeps
+dagger/hilt/internal/processedrootsentinel/codegen/_com_sammycode_notesample_NoteApplication.java
+ dagger.hilt.internal.processedrootsentinel.codegen._com_sammycode_notesample_NoteApplication

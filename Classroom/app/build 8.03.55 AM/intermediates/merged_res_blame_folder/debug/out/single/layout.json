@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_main.xml",
+        "source": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_login.xml",
+        "source": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/res/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/note_item.xml",
+        "source": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/res/layout/note_item.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_register.xml",
+        "source": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/res/layout/fragment_register.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml",
+        "source": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_note.xml",
+        "source": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/res/layout/fragment_note.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_video_conference.xml",
+        "source": "/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/res/layout/fragment_video_conference.xml"
+    }
+]

@@ -1,0 +1,292 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cheezycode.notesample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:6:5-76
+12-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:7:5-79
+13-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.BLUETOOTH" />
+14-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:8:5-68
+14-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:12:5-65
+15-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:12:22-62
+16    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+16-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:14:5-75
+16-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:14:22-72
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:15:5-80
+17-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:15:22-77
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:16:5-71
+18-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:16:22-68
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:17:5-68
+19-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:17:22-65
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:19:5-77
+20-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:19:22-74
+21
+22    <uses-feature
+22-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:21:5-23:35
+23        android:glEsVersion="0x00020000"
+23-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:22:9-41
+24        android:required="true" />
+24-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:23:9-32
+25    <uses-feature
+25-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:24:5-26:36
+26        android:name="android.hardware.camera"
+26-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:25:9-47
+27        android:required="false" />
+27-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:26:9-33
+28    <uses-feature
+28-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:27:5-29:36
+29        android:name="android.hardware.camera.autofocus"
+29-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:28:9-57
+30        android:required="false" />
+30-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:29:9-33
+31
+32    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+32-->[com.facebook.react:react-native-calendar-events:2.2.0-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/017d5bb5c334a23d9eed7b9256406779/transformed/jetified-react-native-calendar-events-2.2.0-jitsi-12030543/AndroidManifest.xml:9:5-73
+32-->[com.facebook.react:react-native-calendar-events:2.2.0-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/017d5bb5c334a23d9eed7b9256406779/transformed/jetified-react-native-calendar-events-2.2.0-jitsi-12030543/AndroidManifest.xml:9:22-70
+33    <uses-permission android:name="android.permission.READ_CALENDAR" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+33-->[com.facebook.react:react-native-calendar-events:2.2.0-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/017d5bb5c334a23d9eed7b9256406779/transformed/jetified-react-native-calendar-events-2.2.0-jitsi-12030543/AndroidManifest.xml:10:5-72
+33-->[com.facebook.react:react-native-calendar-events:2.2.0-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/017d5bb5c334a23d9eed7b9256406779/transformed/jetified-react-native-calendar-events-2.2.0-jitsi-12030543/AndroidManifest.xml:10:22-69
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+34-->[com.google.android.gms:play-services-iid:17.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/395b509869980c5748006bbe958f8a20/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+34-->[com.google.android.gms:play-services-iid:17.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/395b509869980c5748006bbe958f8a20/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+35    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+35-->[com.android.installreferrer:installreferrer:1.1.2] /Users/ksnsamanwith/.gradle/caches/transforms-3/a1da5fdd9461037c52087d9b7d14f673/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+35-->[com.android.installreferrer:installreferrer:1.1.2] /Users/ksnsamanwith/.gradle/caches/transforms-3/a1da5fdd9461037c52087d9b7d14f673/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+36
+37    <application
+37-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:10:5-28:19
+38        android:name="com.sammycode.notesample.NoteApplication"
+38-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:11:9-64
+39        android:allowBackup="true"
+39-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:12:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.7.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/05dc93c20368d1dcfa3e4198be89f399/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:icon="@mipmap/ic_launcher"
+43-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:13:9-43
+44        android:label="@string/app_name"
+44-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:14:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:15:9-54
+46        android:supportsRtl="true"
+46-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:16:9-35
+47        android:testOnly="true"
+48        android:theme="@style/NoActionBar" >
+48-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:17:9-43
+49        <activity
+49-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:18:9-27:20
+50            android:name="com.sammycode.notesample.MainActivity"
+50-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:19:13-65
+51            android:exported="true" >
+51-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:20:13-36
+52            <intent-filter>
+52-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:21:13-25:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:22:17-69
+53-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:22:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:24:17-77
+55-->/Users/ksnsamanwith/Desktop/OverEngineered/Classroom/app/src/main/AndroidManifest.xml:24:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:35:9-41:58
+59            android:name="org.jitsi.meet.sdk.JitsiMeetActivity"
+59-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:36:13-64
+60            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+60-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:37:13-122
+61            android:launchMode="singleTask"
+61-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:38:13-44
+62            android:resizeableActivity="true"
+62-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:39:13-46
+63            android:supportsPictureInPicture="true"
+63-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:40:13-52
+64            android:windowSoftInputMode="adjustResize" />
+64-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:41:13-55
+65
+66        <service
+66-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:43:9-50:19
+67            android:name="org.jitsi.meet.sdk.ConnectionService"
+67-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:44:13-64
+68            android:exported="true"
+68-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:45:13-36
+69            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+69-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:46:13-84
+70            <intent-filter>
+70-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:47:13-49:29
+71                <action android:name="android.telecom.ConnectionService" />
+71-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:48:17-76
+71-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:48:25-73
+72            </intent-filter>
+73        </service>
+74        <service
+74-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:51:9-53:63
+75            android:name="org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService"
+75-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:52:13-80
+76            android:foregroundServiceType="mediaProjection" />
+76-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:53:13-60
+77
+78        <provider
+78-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:55:9-60:20
+79            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+79-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:56:13-83
+80            android:authorities="com.cheezycode.notesample.fileprovider"
+80-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:57:13-64
+81            android:enabled="false"
+81-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:58:13-36
+82            android:exported="false"
+82-->[com.facebook.react:react-native-webview:11.15.1-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/b150442d41e71e4dcb5eb29befbe9de6/transformed/jetified-react-native-webview-11.15.1-jitsi-12030543/AndroidManifest.xml:13:13-37
+83            android:grantUriPermissions="true" >
+83-->[com.facebook.react:react-native-webview:11.15.1-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/b150442d41e71e4dcb5eb29befbe9de6/transformed/jetified-react-native-webview-11.15.1-jitsi-12030543/AndroidManifest.xml:14:13-47
+84            <meta-data
+84-->[com.facebook.react:react-native-webview:11.15.1-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/b150442d41e71e4dcb5eb29befbe9de6/transformed/jetified-react-native-webview-11.15.1-jitsi-12030543/AndroidManifest.xml:15:13-17:63
+85                android:name="android.support.FILE_PROVIDER_PATHS"
+85-->[com.facebook.react:react-native-webview:11.15.1-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/b150442d41e71e4dcb5eb29befbe9de6/transformed/jetified-react-native-webview-11.15.1-jitsi-12030543/AndroidManifest.xml:16:17-67
+86                android:resource="@xml/file_provider_paths" />
+86-->[com.facebook.react:react-native-webview:11.15.1-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/b150442d41e71e4dcb5eb29befbe9de6/transformed/jetified-react-native-webview-11.15.1-jitsi-12030543/AndroidManifest.xml:17:17-60
+87        </provider>
+88        <provider
+88-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:61:9-68:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:62:13-67
+90            android:authorities="com.cheezycode.notesample.androidx-startup"
+90-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:63:13-68
+91            android:exported="false" >
+91-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:64:13-37
+92            <meta-data
+92-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:65:13-67:52
+93                android:name="org.jitsi.meet.sdk.JitsiInitializer"
+93-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:66:17-67
+94                android:value="androidx.startup" />
+94-->[org.jitsi.react:jitsi-meet-sdk:5.1.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/056b528f211a2bded29a21a9e521bcd1/transformed/jetified-jitsi-meet-sdk-5.1.0/AndroidManifest.xml:67:17-49
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/3481d6d700e62cfab4d4966156b0c4e4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/3481d6d700e62cfab4d4966156b0c4e4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/3481d6d700e62cfab4d4966156b0c4e4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/7047adc2ab11ab840c726cd46999717d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/7047adc2ab11ab840c726cd46999717d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/7047adc2ab11ab840c726cd46999717d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+101        </provider>
+102
+103        <uses-library
+103-->[com.giphy.sdk:ui:2.1.16] /Users/ksnsamanwith/.gradle/caches/transforms-3/ee309b2efa7a0c56dc2f80a0cd3e6a7d/transformed/jetified-ui-2.1.16/AndroidManifest.xml:13:9-15:40
+104            android:name="android.test.runner"
+104-->[com.giphy.sdk:ui:2.1.16] /Users/ksnsamanwith/.gradle/caches/transforms-3/ee309b2efa7a0c56dc2f80a0cd3e6a7d/transformed/jetified-ui-2.1.16/AndroidManifest.xml:14:13-47
+105            android:required="false" />
+105-->[com.giphy.sdk:ui:2.1.16] /Users/ksnsamanwith/.gradle/caches/transforms-3/ee309b2efa7a0c56dc2f80a0cd3e6a7d/transformed/jetified-ui-2.1.16/AndroidManifest.xml:15:13-37
+106        <uses-library
+106-->[com.giphy.sdk:ui:2.1.16] /Users/ksnsamanwith/.gradle/caches/transforms-3/ee309b2efa7a0c56dc2f80a0cd3e6a7d/transformed/jetified-ui-2.1.16/AndroidManifest.xml:16:9-18:40
+107            android:name="android.test.base"
+107-->[com.giphy.sdk:ui:2.1.16] /Users/ksnsamanwith/.gradle/caches/transforms-3/ee309b2efa7a0c56dc2f80a0cd3e6a7d/transformed/jetified-ui-2.1.16/AndroidManifest.xml:17:13-45
+108            android:required="false" />
+108-->[com.giphy.sdk:ui:2.1.16] /Users/ksnsamanwith/.gradle/caches/transforms-3/ee309b2efa7a0c56dc2f80a0cd3e6a7d/transformed/jetified-ui-2.1.16/AndroidManifest.xml:18:13-37
+109        <uses-library
+109-->[com.giphy.sdk:ui:2.1.16] /Users/ksnsamanwith/.gradle/caches/transforms-3/ee309b2efa7a0c56dc2f80a0cd3e6a7d/transformed/jetified-ui-2.1.16/AndroidManifest.xml:19:9-21:40
+110            android:name="android.test.mock"
+110-->[com.giphy.sdk:ui:2.1.16] /Users/ksnsamanwith/.gradle/caches/transforms-3/ee309b2efa7a0c56dc2f80a0cd3e6a7d/transformed/jetified-ui-2.1.16/AndroidManifest.xml:20:13-45
+111            android:required="false" />
+111-->[com.giphy.sdk:ui:2.1.16] /Users/ksnsamanwith/.gradle/caches/transforms-3/ee309b2efa7a0c56dc2f80a0cd3e6a7d/transformed/jetified-ui-2.1.16/AndroidManifest.xml:21:13-37
+112
+113        <provider
+113-->[com.facebook.react:react-native-performance:2.1.0-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/ce36406f3d5174b5f570eabcce1aa70c/transformed/jetified-react-native-performance-2.1.0-jitsi-12030543/AndroidManifest.xml:10:9-14:39
+114            android:name="com.oblador.performance.StartTimeProvider"
+114-->[com.facebook.react:react-native-performance:2.1.0-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/ce36406f3d5174b5f570eabcce1aa70c/transformed/jetified-react-native-performance-2.1.0-jitsi-12030543/AndroidManifest.xml:11:13-69
+115            android:authorities="com.cheezycode.notesample.start.time.provider"
+115-->[com.facebook.react:react-native-performance:2.1.0-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/ce36406f3d5174b5f570eabcce1aa70c/transformed/jetified-react-native-performance-2.1.0-jitsi-12030543/AndroidManifest.xml:12:13-71
+116            android:exported="false"
+116-->[com.facebook.react:react-native-performance:2.1.0-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/ce36406f3d5174b5f570eabcce1aa70c/transformed/jetified-react-native-performance-2.1.0-jitsi-12030543/AndroidManifest.xml:13:13-37
+117            android:initOrder="200" />
+117-->[com.facebook.react:react-native-performance:2.1.0-jitsi-10639879] /Users/ksnsamanwith/.gradle/caches/transforms-3/ce36406f3d5174b5f570eabcce1aa70c/transformed/jetified-react-native-performance-2.1.0-jitsi-12030543/AndroidManifest.xml:14:13-36
+118
+119        <activity
+119-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/03f9e044005a32bfdd73417a8f685216/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+120            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+120-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/03f9e044005a32bfdd73417a8f685216/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+121            android:excludeFromRecents="true"
+121-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/03f9e044005a32bfdd73417a8f685216/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/03f9e044005a32bfdd73417a8f685216/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/03f9e044005a32bfdd73417a8f685216/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+124        <!--
+125            Service handling Google Sign-In user revocation. For apps that do not integrate with
+126            Google Sign-In, this service will never be started.
+127        -->
+128        <service
+128-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/03f9e044005a32bfdd73417a8f685216/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+129            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+129-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/03f9e044005a32bfdd73417a8f685216/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+130            android:exported="true"
+130-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/03f9e044005a32bfdd73417a8f685216/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+131            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+131-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/03f9e044005a32bfdd73417a8f685216/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+132            android:visibleToInstantApps="true" />
+132-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/03f9e044005a32bfdd73417a8f685216/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:17.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/563aeb9fd42b04c016a36bd4edea91be/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:17.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/563aeb9fd42b04c016a36bd4edea91be/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:17.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/563aeb9fd42b04c016a36bd4edea91be/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:17.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/563aeb9fd42b04c016a36bd4edea91be/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:17.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/50ca38ae8841e6db2cda1c186f355e7f/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:17.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/50ca38ae8841e6db2cda1c186f355e7f/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:17.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/50ca38ae8841e6db2cda1c186f355e7f/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+142
+143        <uses-library
+143-->[androidx.window:window:1.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/05f4b72c455fc4cdade1e89116d1cad8/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+144            android:name="androidx.window.extensions"
+144-->[androidx.window:window:1.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/05f4b72c455fc4cdade1e89116d1cad8/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+145            android:required="false" />
+145-->[androidx.window:window:1.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/05f4b72c455fc4cdade1e89116d1cad8/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+146        <uses-library
+146-->[androidx.window:window:1.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/05f4b72c455fc4cdade1e89116d1cad8/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+147            android:name="androidx.window.sidecar"
+147-->[androidx.window:window:1.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/05f4b72c455fc4cdade1e89116d1cad8/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+148            android:required="false" />
+148-->[androidx.window:window:1.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-3/05f4b72c455fc4cdade1e89116d1cad8/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+149
+150        <service
+150-->[androidx.room:room-runtime:2.4.2] /Users/ksnsamanwith/.gradle/caches/transforms-3/273985adaaee6478e6f83d58950840b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+151            android:name="androidx.room.MultiInstanceInvalidationService"
+151-->[androidx.room:room-runtime:2.4.2] /Users/ksnsamanwith/.gradle/caches/transforms-3/273985adaaee6478e6f83d58950840b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+152            android:directBootAware="true"
+152-->[androidx.room:room-runtime:2.4.2] /Users/ksnsamanwith/.gradle/caches/transforms-3/273985adaaee6478e6f83d58950840b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+153            android:exported="false" />
+153-->[androidx.room:room-runtime:2.4.2] /Users/ksnsamanwith/.gradle/caches/transforms-3/273985adaaee6478e6f83d58950840b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+154    </application>
+155
+156</manifest>
