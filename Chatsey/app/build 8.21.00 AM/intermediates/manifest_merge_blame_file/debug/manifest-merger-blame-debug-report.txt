@@ -1,0 +1,531 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.streamchatdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:10:5-79
+11-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:10:22-76
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:11:5-80
+12-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:11:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:12:5-81
+13-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:12:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:13:5-65
+14-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:13:22-62
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:10:5-67
+15-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:5-68
+16-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+17-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+18
+19    <queries>
+19-->[androidx.media:media:1.3.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/a99a2944ff4d8b928ce21c5d92b5dc1d/media-1.3.0/AndroidManifest.xml:24:5-28:15
+20        <intent>
+20-->[androidx.media:media:1.3.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/a99a2944ff4d8b928ce21c5d92b5dc1d/media-1.3.0/AndroidManifest.xml:25:9-27:18
+21            <action android:name="android.media.browse.MediaBrowserService" />
+21-->[androidx.media:media:1.3.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/a99a2944ff4d8b928ce21c5d92b5dc1d/media-1.3.0/AndroidManifest.xml:26:13-79
+21-->[androidx.media:media:1.3.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/a99a2944ff4d8b928ce21c5d92b5dc1d/media-1.3.0/AndroidManifest.xml:26:21-76
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+25-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:27:22-78
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+26-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+26-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:28:22-74
+27
+28    <application
+28-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:5:5-21:19
+29        android:name="com.example.streamchatdemo.MyApplication"
+29-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:6:9-38
+30        android:allowBackup="true"
+30-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:7:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.6.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/034642df4a497845fe8cd31a578bcbab/core-1.6.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:8:9-43
+34        android:label="@string/app_name"
+34-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:9:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:10:9-54
+36        android:supportsRtl="true"
+36-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:11:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.StreamChatDemo" >
+38-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:12:9-52
+39        <activity
+39-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:13:9-20:20
+40            android:name="com.example.streamchatdemo.ui.MainActivity"
+40-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:14:13-44
+41            android:screenOrientation="portrait" >
+41-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:15:13-49
+42            <intent-filter>
+42-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:16:13-19:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:17:17-69
+43-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:17:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:18:17-77
+45-->/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/AndroidManifest.xml:18:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:16:9-27:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:17:13-67
+51            android:authorities="com.example.streamchatdemo.androidx-startup"
+51-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:18:13-68
+52            android:exported="false" >
+52-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:19:13-37
+53            <meta-data
+53-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:21:13-23:52
+54                android:name="io.getstream.chat.android.ui.common.internal.ChatUIInitializer"
+54-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:22:17-94
+55                android:value="androidx.startup" />
+55-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:23:17-49
+56            <meta-data
+56-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:24:13-26:52
+57                android:name="io.getstream.chat.android.ui.common.internal.ImageLoaderFactoryInitializer"
+57-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:25:17-106
+58                android:value="androidx.startup" />
+58-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:26:17-49
+59            <meta-data
+59-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:29:13-31:52
+60                android:name="com.getstream.sdk.chat.startup.ThreeTenInitializer"
+60-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:30:17-82
+61                android:value="androidx.startup" />
+61-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:31:17-49
+62        </provider>
+63
+64        <activity
+64-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:29:9-31:77
+65            android:name="io.getstream.chat.android.ui.gallery.AttachmentGalleryActivity"
+65-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:30:13-90
+66            android:theme="@style/StreamUiAttachmentGalleryActivityStyle" />
+66-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:31:13-74
+67        <activity
+67-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:32:9-34:75
+68            android:name="io.getstream.chat.android.ui.gallery.AttachmentMediaActivity"
+68-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:33:13-88
+69            android:theme="@style/StreamUiAttachmentMediaActivityStyle" />
+69-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:34:13-72
+70        <activity
+70-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:35:9-37:70
+71            android:name="io.getstream.chat.android.ui.gallery.AttachmentActivity"
+71-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:36:13-83
+72            android:theme="@style/StreamUiAttachmentActivityStyle" />
+72-->[io.getstream:stream-chat-android-ui-components:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/df5cb2afa8622df6290ac16831c2f468/jetified-stream-chat-android-ui-components-4.13.0/AndroidManifest.xml:37:13-67
+73        <activity android:name="com.getstream.sdk.chat.view.activity.AttachmentMediaActivity" />
+73-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:11:9-97
+73-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:11:19-94
+74        <activity android:name="com.getstream.sdk.chat.view.activity.AttachmentDocumentActivity" />
+74-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:12:9-100
+74-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:12:19-97
+75        <activity android:name="com.getstream.sdk.chat.view.activity.AttachmentActivity" />
+75-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:13:9-92
+75-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:13:19-89
+76
+77        <provider
+77-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:15:9-23:20
+78            android:name="com.getstream.sdk.chat.StreamFileProvider"
+78-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:16:13-69
+79            android:authorities="com.example.streamchatdemo.streamfileprovider"
+79-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:17:13-70
+80            android:exported="false"
+80-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:18:13-37
+81            android:grantUriPermissions="true" >
+81-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:19:13-47
+82            <meta-data
+82-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:20:13-22:60
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:21:17-67
+84                android:resource="@xml/stream_filepaths" />
+84-->[io.getstream:stream-chat-android-ui-common:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/0a284e18850d7dd0a3f616c4d6aaa57e/jetified-stream-chat-android-ui-common-4.13.0/AndroidManifest.xml:22:17-57
+85        </provider>
+86
+87        <receiver
+87-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:13:9-21:20
+88            android:name="io.getstream.chat.android.client.receivers.NotificationMessageReceiver"
+88-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:14:13-98
+89            android:enabled="true"
+89-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:15:13-35
+90            android:exported="false" >
+90-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:16:13-37
+91            <intent-filter>
+91-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:17:13-20:29
+92                <action android:name="com.getstream.sdk.chat.READ" />
+92-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:18:17-70
+92-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:18:25-67
+93                <action android:name="com.getstream.sdk.chat.REPLY" />
+93-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:19:17-71
+93-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:19:25-68
+94            </intent-filter>
+95        </receiver>
+96
+97        <service
+97-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:23:9-29:19
+98            android:name="io.getstream.chat.android.client.notifications.ChatFirebaseMessagingService"
+98-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:24:13-103
+99            android:exported="false" >
+99-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:25:13-37
+100            <intent-filter android:priority="-1" >
+100-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:26:13-28:29
+100-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:26:28-49
+101                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+101-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:27:17-78
+101-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:27:25-75
+102            </intent-filter>
+103        </service>
+104
+105        <activity
+105-->[com.karumi:dexter:6.2.2] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/fa79b5c1b66c866945f287119193edd8/jetified-dexter-6.2.2/AndroidManifest.xml:27:9-29:72
+106            android:name="com.karumi.dexter.DexterActivity"
+106-->[com.karumi:dexter:6.2.2] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/fa79b5c1b66c866945f287119193edd8/jetified-dexter-6.2.2/AndroidManifest.xml:28:13-60
+107            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+107-->[com.karumi:dexter:6.2.2] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/fa79b5c1b66c866945f287119193edd8/jetified-dexter-6.2.2/AndroidManifest.xml:29:13-69
+108
+109        <receiver
+109-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+110            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+110-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+111            android:exported="true"
+111-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+112            android:permission="com.google.android.c2dm.permission.SEND" >
+112-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+113            <intent-filter>
+113-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+114                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+114-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+114-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+115            </intent-filter>
+116        </receiver>
+117        <!--
+118             FirebaseMessagingService performs security checks at runtime,
+119             but set to not exported to explicitly avoid allowing another app to call it.
+120        -->
+121        <service
+121-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+122            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+122-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+123            android:directBootAware="true"
+123-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+124            android:exported="false" >
+124-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+125            <intent-filter android:priority="-500" >
+125-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:26:13-28:29
+125-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:26:28-49
+126                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+126-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:27:17-78
+126-->[io.getstream:stream-chat-android-client:4.13.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/cb44d8afc28c0d631164a336c34a4a5c/jetified-stream-chat-android-client-4.13.0/AndroidManifest.xml:27:25-75
+127            </intent-filter>
+128        </service>
+129        <service
+129-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
+130            android:name="com.google.firebase.components.ComponentDiscoveryService"
+130-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:50:13-84
+131            android:directBootAware="true"
+131-->[com.google.firebase:firebase-common:20.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/b7ef1c122cd0d5e8f4ecf0499044de7f/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+132            android:exported="false" >
+132-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
+133            <meta-data
+133-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+134                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+134-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-messaging:22.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7268d8f8a14f4e7d88c0d0be1ba9c8a4/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/5d3f3f785463d5ea32ea2689fd174a42/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+137                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+137-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/5d3f3f785463d5ea32ea2689fd174a42/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/5d3f3f785463d5ea32ea2689fd174a42/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-installations:17.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/1d992374b916ce2fc76133fcd098e38f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+140                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+140-->[com.google.firebase:firebase-installations:17.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/1d992374b916ce2fc76133fcd098e38f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-installations:17.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/1d992374b916ce2fc76133fcd098e38f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+142        </service>
+143
+144        <provider
+144-->[com.google.firebase:firebase-common:20.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/b7ef1c122cd0d5e8f4ecf0499044de7f/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+145            android:name="com.google.firebase.provider.FirebaseInitProvider"
+145-->[com.google.firebase:firebase-common:20.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/b7ef1c122cd0d5e8f4ecf0499044de7f/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+146            android:authorities="com.example.streamchatdemo.firebaseinitprovider"
+146-->[com.google.firebase:firebase-common:20.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/b7ef1c122cd0d5e8f4ecf0499044de7f/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+147            android:directBootAware="true"
+147-->[com.google.firebase:firebase-common:20.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/b7ef1c122cd0d5e8f4ecf0499044de7f/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+148            android:exported="false"
+148-->[com.google.firebase:firebase-common:20.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/b7ef1c122cd0d5e8f4ecf0499044de7f/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+149            android:initOrder="100" />
+149-->[com.google.firebase:firebase-common:20.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/b7ef1c122cd0d5e8f4ecf0499044de7f/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+150
+151        <meta-data
+151-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/80929545435f7181d23ed749b9bdedfd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+152            android:name="com.google.android.gms.version"
+152-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/80929545435f7181d23ed749b9bdedfd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+153            android:value="@integer/google_play_services_version" />
+153-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/80929545435f7181d23ed749b9bdedfd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+154
+155        <provider
+155-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+156            android:name="androidx.work.impl.WorkManagerInitializer"
+156-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+157            android:authorities="com.example.streamchatdemo.workmanager-init"
+157-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+158            android:directBootAware="false"
+158-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+159            android:exported="false"
+159-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+160            android:multiprocess="true" />
+160-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+161
+162        <service
+162-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+163            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+163-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+164            android:directBootAware="false"
+164-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+165            android:enabled="@bool/enable_system_alarm_service_default"
+165-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+166            android:exported="false" />
+166-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+167        <service
+167-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+168            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+168-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+169            android:directBootAware="false"
+169-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+170            android:enabled="@bool/enable_system_job_service_default"
+170-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+171            android:exported="true"
+171-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+172            android:permission="android.permission.BIND_JOB_SERVICE" />
+172-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+173        <service
+173-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+174            android:name="androidx.work.impl.foreground.SystemForegroundService"
+174-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+175            android:directBootAware="false"
+175-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+176            android:enabled="@bool/enable_system_foreground_service_default"
+176-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+177            android:exported="false" />
+177-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+178
+179        <receiver
+179-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+180            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+180-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+181            android:directBootAware="false"
+181-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+182            android:enabled="true"
+182-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+183            android:exported="false" />
+183-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+184        <receiver
+184-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+185            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+185-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+186            android:directBootAware="false"
+186-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+187            android:enabled="false"
+187-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+188            android:exported="false" >
+188-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+189            <intent-filter>
+189-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+190                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+190-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+190-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+191                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+191-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+191-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+192            </intent-filter>
+193        </receiver>
+194        <receiver
+194-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+195            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+195-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+196            android:directBootAware="false"
+196-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+197            android:enabled="false"
+197-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+198            android:exported="false" >
+198-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+199            <intent-filter>
+199-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+200                <action android:name="android.intent.action.BATTERY_OKAY" />
+200-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+200-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+201                <action android:name="android.intent.action.BATTERY_LOW" />
+201-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+201-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+202            </intent-filter>
+203        </receiver>
+204        <receiver
+204-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+205            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+205-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+206            android:directBootAware="false"
+206-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+207            android:enabled="false"
+207-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+208            android:exported="false" >
+208-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+209            <intent-filter>
+209-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+210                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+210-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+210-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+211                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+211-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+211-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+212            </intent-filter>
+213        </receiver>
+214        <receiver
+214-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+215            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+215-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+216            android:directBootAware="false"
+216-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+217            android:enabled="false"
+217-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+218            android:exported="false" >
+218-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+219            <intent-filter>
+219-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+220                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+220-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+220-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+221            </intent-filter>
+222        </receiver>
+223        <receiver
+223-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+224            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+224-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+225            android:directBootAware="false"
+225-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+226            android:enabled="false"
+226-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+227            android:exported="false" >
+227-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+228            <intent-filter>
+228-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+229                <action android:name="android.intent.action.BOOT_COMPLETED" />
+229-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:115:17-79
+229-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:115:25-76
+230                <action android:name="android.intent.action.TIME_SET" />
+230-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+230-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+231                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+231-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+231-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+232            </intent-filter>
+233        </receiver>
+234        <receiver
+234-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+235            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+235-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+236            android:directBootAware="false"
+236-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+237            android:enabled="@bool/enable_system_alarm_service_default"
+237-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+238            android:exported="false" >
+238-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+239            <intent-filter>
+239-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+240                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+240-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+240-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+241            </intent-filter>
+242        </receiver>
+243        <receiver
+243-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+244            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+244-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+245            android:directBootAware="false"
+245-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+246            android:enabled="true"
+246-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+247            android:exported="true"
+247-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+248            android:permission="android.permission.DUMP" >
+248-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+249            <intent-filter>
+249-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+250                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+250-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+250-->[androidx.work:work-runtime:2.5.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/abebbccbf7b513f7cb7beaecf4ad4441/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+251            </intent-filter>
+252        </receiver>
+253
+254        <provider
+254-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7b0aed4e63bde8349ef86c3e896822a2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+255            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+255-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7b0aed4e63bde8349ef86c3e896822a2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+256            android:authorities="com.example.streamchatdemo.lifecycle-process"
+256-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7b0aed4e63bde8349ef86c3e896822a2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+257            android:exported="false"
+257-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7b0aed4e63bde8349ef86c3e896822a2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+258            android:multiprocess="true" />
+258-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/7b0aed4e63bde8349ef86c3e896822a2/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+259
+260        <service
+260-->[androidx.room:room-runtime:2.3.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/3eeb5f2f918aec2065e668e19334a3ee/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+261            android:name="androidx.room.MultiInstanceInvalidationService"
+261-->[androidx.room:room-runtime:2.3.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/3eeb5f2f918aec2065e668e19334a3ee/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+262            android:directBootAware="true"
+262-->[androidx.room:room-runtime:2.3.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/3eeb5f2f918aec2065e668e19334a3ee/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+263            android:exported="false" />
+263-->[androidx.room:room-runtime:2.3.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/3eeb5f2f918aec2065e668e19334a3ee/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+264        <service
+264-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/3b62e420ef279ea88cb16a5013c17a15/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+265            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+265-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/3b62e420ef279ea88cb16a5013c17a15/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+266            android:exported="false" >
+266-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/3b62e420ef279ea88cb16a5013c17a15/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+267            <meta-data
+267-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/3b62e420ef279ea88cb16a5013c17a15/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+268                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+268-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/3b62e420ef279ea88cb16a5013c17a15/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+269                android:value="cct" />
+269-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/3b62e420ef279ea88cb16a5013c17a15/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+270        </service>
+271        <service
+271-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/fd7abc8401f4f57a5aede2474a5d9004/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+272            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+272-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/fd7abc8401f4f57a5aede2474a5d9004/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+273            android:exported="false"
+273-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/fd7abc8401f4f57a5aede2474a5d9004/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+274            android:permission="android.permission.BIND_JOB_SERVICE" >
+274-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/fd7abc8401f4f57a5aede2474a5d9004/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+275        </service>
+276
+277        <receiver
+277-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/fd7abc8401f4f57a5aede2474a5d9004/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+278            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+278-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/fd7abc8401f4f57a5aede2474a5d9004/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+279            android:exported="false" />
+279-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ksnsamanwith/.gradle/caches/transforms-2/files-2.1/fd7abc8401f4f57a5aede2474a5d9004/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+280    </application>
+281
+282</manifest>

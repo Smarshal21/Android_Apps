@@ -1,0 +1,16 @@
+com/example/streamchatdemo/databinding/FragmentUsersBinding.java
+ com.example.streamchatdemo.databinding.FragmentUsersBinding
+com/example/streamchatdemo/databinding/FragmentChannelBinding.java
+ com.example.streamchatdemo.databinding.FragmentChannelBinding
+com/example/streamchatdemo/databinding/FragmentChatBinding.java
+ com.example.streamchatdemo.databinding.FragmentChatBinding
+com/example/streamchatdemo/databinding/UserRowLayoutBinding.java
+ com.example.streamchatdemo.databinding.UserRowLayoutBinding
+com/example/streamchatdemo/databinding/FragmentLoginnnBinding.java
+ com.example.streamchatdemo.databinding.FragmentLoginnnBinding
+com/example/streamchatdemo/databinding/ActivityMainBinding.java
+ com.example.streamchatdemo.databinding.ActivityMainBinding
+com/example/streamchatdemo/BuildConfig.java
+ com.example.streamchatdemo.BuildConfig
+com/example/streamchatdemo/databinding/DrawerHeaderBinding.java
+ com.example.streamchatdemo.databinding.DrawerHeaderBinding

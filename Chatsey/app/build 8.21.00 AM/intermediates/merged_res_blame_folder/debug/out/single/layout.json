@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_chat.xml",
+        "source": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/res/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_users.xml",
+        "source": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/res/layout/fragment_users.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/user_row_layout.xml",
+        "source": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/res/layout/user_row_layout.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/drawer_header.xml",
+        "source": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/res/layout/drawer_header.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_channel.xml",
+        "source": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/res/layout/fragment_channel.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_login.xml",
+        "source": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/res/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_loginnn.xml",
+        "source": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/res/layout/fragment_loginnn.xml"
+    },
+    {
+        "merged": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/ksnsamanwith/Desktop/StreamChatApp/app/src/main/res/layout/activity_main.xml"
+    }
+]
